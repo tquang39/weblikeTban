@@ -5,22 +5,24 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="mainnv2.css">
         <script src="https://kit.fontawesome.com/8e97d843f6.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/png" href="./logo1.png"/>
     </head>
 
     <body>
         <div class="taskbar">
-            <p class="bar mot"> TRANG CHỦ</p>
-            <p class="bar hai"> TIỂU SỬ</p>
-            <p class="bar ba">THÀNH TÍCH</p>
-            <p class="bar bon"> SỰ KIỆN</p>
+            <div class="bar mot"><a href="#home" style="text-decoration: none; color: #000;">HOME</a></div>
+            <div class="bar hai"><a href="#introduce" style="text-decoration: none; color: #000;">INTRODUCE</a></div>
+            <div class="bar ba"><a href="#leader" style="text-decoration: none; color: #000;">LEADER</a></div>
+            <div class="bar bon"><a href="#boss" style="text-decoration: none; color: #000;">BOARD</a></div>
+            <div class="bar nam"><a href="#lienhe" style="text-decoration: none; color: #000;">CONTACT</a></div>
         </div>
 
-        <div class="bg">
+        <div class="bg" id="home">
             <img src="https://scontent.fhan14-4.fna.fbcdn.net/v/t39.30808-6/372019142_610746957912447_9173602630663381465_n.png?_nc_cat=102&ccb=1-7&_nc_sid=783fdb&_nc_ohc=L2VQ6kVOLAsAX_rDR_a&_nc_ht=scontent.fhan14-4.fna&oh=00_AfC7pm_xFUMn2i8OTDFL8SG6uoNZIoKmWyhNw5FVWfNIzQ&oe=65733C8A"
              alt="HAMIC 2023" style="width:100%;height:auto;">   
         </div>
 
-        <div class="tieude">
+        <div class="tieude" id="introduce">
             <b class="first">H A M I C</b>
             <p class="tieude nhat">HUS Applied Mathematics Informatics Club</p>
             <p class="gioithieu">HAMIC là một trong những câu lạc bộ học thuật về công nghệ thông tin 
@@ -32,10 +34,10 @@
                 ngoài nước. </p>
         </div>
 
-        <div class="member">
-            <div class="bg1">
-            <b class="second"> DANH TÍNH CÁC “TRÙM SỎ” HAMIC NHIỆM KỲ 2023 - 2024</b>
-            <div class="member mem1">
+        <div class="member" id="leader">
+            <div class="bg1" >
+            <b class="second" > DANH TÍNH CÁC “TRÙM SỎ” HAMIC NHIỆM KỲ 2023 - 2024</b>
+            <div class="member mem1" >
                 <h4 class="profile1">🌵 CHỦ NHIỆM CÂU LẠC BỘ 🌵</h4>
                 <p class="profile1">“Đừng nắm cơ hội của bạn trong tay, hãy nắm lấy tiền”</p>
                 <ul class="profile1">
@@ -80,10 +82,10 @@
             </div>
         </div>
 
-        <div>
-            <b class="third"> CÁC BAN THUỘC HAMIC</b>
-            <div class="bg2">
-                <h4 class="pfban1"> CÁC BAN HOẠT ĐỘNG</h4>
+        <div >
+            <b class="third" id="boss"> CÁC BAN THUỘC HAMIC</b>
+            <div class="bg2" >
+                <h4 class="pfban1" > CÁC BAN HOẠT ĐỘNG</h4>
                 <div class="ban ban1"><img src="https://bom.so/Fkwzxe" alt="" style="width:200px;"></div>
                 <div class="ban ban2"><img src="https://bom.so/tDyznB" alt="" style="width:200px;"></div>
                 <div class="ban ban3"><img src="https://bom.so/0OsOHD" alt="" style="width:200px;"></div>
@@ -95,7 +97,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="lienhe">
             <b class="first1">CONTACT</b>
             <i class="first2">Bạn muốn hỏi không?</i>
         </div>
@@ -116,7 +118,7 @@
             </div>
 
             <div class="dtt">
-                <form action="m.me/hamictoantin" target="_blank">
+                <form action="./meme.html" target="_blank">
                     <div class="dttt ten">
                         <input type="text" placeholder="Tên" required name="Tên" style="width: 157.8px;height: 5vh;">
                     </div>
@@ -135,8 +137,27 @@
         <marquee class="chuchay" width="100%" loop="infinite"  scrollamount="10" behavior="scroll" direction="right" style="background-color: #971132; color:white">🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵 WE ARE HAMIC 🌵</marquee>
         <div class="slider" >
             <!-- <div class="bgclb"></div> -->
-            <div class="anhclb"><img src="./anhchung.jpg" alt="" style="width: 1215px"></div>
-            
+            <!-- <div class="anhclb"><img src="./anhchung.jpg" alt="" style="width: 1215px"></div> -->
+                <div class="slider_imgs">
+                    <input type="radio" name="inputslider" id="imgg1">
+                    <input type="radio" name="inputslider" id="imgg2">
+                    <input type="radio" name="inputslider" id="imgg3">
+                    <input type="radio" name="inputslider" id="imgg4">
+                    <input type="radio" name="inputslider" id="imgg5">
+
+                    <img src="./anhchung.jpg" alt="imgg1" class="imgslider1" >
+                    <img src="./img1.jpg" alt="imgg2" class="imgslider2" >
+                    <img src="./img22.jpg" alt="imgg3" class="imgslider3" >
+                    <img src="./img3.jpg" alt="imgg4" class="imgslider4" >
+                    <img src="./img4.jpg" alt="imgg5" class="imgslider5" >
+                </div>
+                <div class="labelslider">
+                    <label for="imgg1"></label>
+                    <label for="imgg2"></label>
+                    <label for="imgg3"></label>
+                    <label for="imgg4"></label>
+                    <label for="imgg5"></label>
+                </div>
         </div>
 
         <div>
